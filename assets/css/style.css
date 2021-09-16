@@ -50,5 +50,37 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+/* hero image */
+
+
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url("../css/hero-image.webp") no-repeat center center;
+
+
+    /* animation effect on the loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
+
+}
+/*create the level of zoo in the hero image */
+
+@keyframes hero-zoom{
+    from{
+      transform: scale(1)
+    }
+    to{
+        transform: scale(1.1)
+    }
+}
    
 
