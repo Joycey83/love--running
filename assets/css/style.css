@@ -282,3 +282,17 @@ color: #3a3a3a;
         display: none;
     }
 }
+
+
+/* media queries at break point 950px */
+
+@media screen and (max-width: 950px){
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
