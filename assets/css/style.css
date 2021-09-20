@@ -258,7 +258,7 @@ color: #3a3a3a;
 
 /* media queries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px){
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -285,11 +285,11 @@ color: #3a3a3a;
         padding: 0;
     }
 
-    }
+}
     hr {
         display: none;
     }
-}
+
 
 
 /* media queries at break point 950px */
@@ -328,4 +328,16 @@ color: #3a3a3a;
     padding: 0 20px;
 }
 
+}
+
+#photos {
+    column-count: 3;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #photos {
+    column-count: 2;
+}
 }
